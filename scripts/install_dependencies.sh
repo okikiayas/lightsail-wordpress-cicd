@@ -1,5 +1,6 @@
 #!/bin/bash
-yum update -y
-yum install -y httpd php php-mysql mariadb-server
-systemctl enable httpd
-systemctl enable mariadb
+# Updated for Amazon Linux 2023
+sudo dnf update -y
+sudo dnf install -y httpd php php-mysqlnd mariadb105-server
+sudo systemctl enable httpd
+sudo systemctl enable mariadb
