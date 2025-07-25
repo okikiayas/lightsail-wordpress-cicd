@@ -9,6 +9,9 @@ permissions:
     owner: bitnami
     group: bitnami
     mode: 755
+    type:
+      - file
+      - directory
 hooks:
   ApplicationStart:
     - location: scripts/restart_services.sh
