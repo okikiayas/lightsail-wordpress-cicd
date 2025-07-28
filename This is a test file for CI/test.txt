@@ -1,3 +1,0 @@
-This is a test file for CI/CD pipeline deployment.
-Timestamp: 2025-07-25
-Version: 1.0
